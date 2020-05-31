@@ -154,7 +154,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton5">
           <Properties>
-            <Property name="text" type="java.lang.String" value="METODO 5"/>
+            <Property name="text" type="java.lang.String" value="EDITAR2.0"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButton6">

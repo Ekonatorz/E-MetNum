@@ -59,7 +59,7 @@ public class METODOSMC extends javax.swing.JFrame {
 
         jButton4.setText("METODO 4");
 
-        jButton5.setText("METODO 5");
+        jButton5.setText("EDITAR2.0");
 
         jButton6.setText("METODO 6");
 
