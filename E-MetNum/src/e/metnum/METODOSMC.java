@@ -49,6 +49,51 @@ public class METODOSMC extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jButton18 = new javax.swing.JButton();
+        jPanel3 = new javax.swing.JPanel();
+        jButton19 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        jPanel5 = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        jButton20 = new javax.swing.JButton();
+        jPanel4 = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
+        jButton21 = new javax.swing.JButton();
+        jPanel6 = new javax.swing.JPanel();
+        jLabel6 = new javax.swing.JLabel();
+        jButton22 = new javax.swing.JButton();
+        jPanel7 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        jButton23 = new javax.swing.JButton();
+        jPanel8 = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        jButton24 = new javax.swing.JButton();
+        jPanel9 = new javax.swing.JPanel();
+        jLabel9 = new javax.swing.JLabel();
+        jButton25 = new javax.swing.JButton();
+        jPanel10 = new javax.swing.JPanel();
+        jLabel10 = new javax.swing.JLabel();
+        jButton26 = new javax.swing.JButton();
+        jPanel11 = new javax.swing.JPanel();
+        jLabel11 = new javax.swing.JLabel();
+        jButton27 = new javax.swing.JButton();
+        jPanel12 = new javax.swing.JPanel();
+        jLabel12 = new javax.swing.JLabel();
+        jButton28 = new javax.swing.JButton();
+        jPanel13 = new javax.swing.JPanel();
+        jLabel13 = new javax.swing.JLabel();
+        jButton29 = new javax.swing.JButton();
+        jPanel14 = new javax.swing.JPanel();
+        jLabel14 = new javax.swing.JLabel();
+        jButton30 = new javax.swing.JButton();
+        jPanel15 = new javax.swing.JPanel();
+        jLabel15 = new javax.swing.JLabel();
+        jButton31 = new javax.swing.JButton();
+        jPanel16 = new javax.swing.JPanel();
+        jLabel16 = new javax.swing.JLabel();
+        jButton32 = new javax.swing.JButton();
+        jPanel17 = new javax.swing.JPanel();
+        jLabel17 = new javax.swing.JLabel();
+        jButton33 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -71,48 +116,123 @@ public class METODOSMC extends javax.swing.JFrame {
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 87, 101, 55));
 
         jButton2.setText("METODO 2");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 87, 101, 55));
 
         jButton3.setText("METODO 3");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 87, 100, 55));
 
         jButton4.setText("METODO 4");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 87, 101, 55));
 
-        jButton5.setText("METODO 4");
+        jButton5.setText("METODO 5");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 147, 101, 55));
 
         jButton6.setText("METODO 6");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 147, 101, 55));
 
         jButton7.setText("METODO 7");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 147, 100, 55));
 
         jButton8.setText("METODO 8");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 147, 101, 55));
 
         jButton9.setText("METODO 9");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 207, 101, 55));
 
         jButton10.setText("METODO 10");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 207, 101, 55));
 
         jButton11.setText("METODO 11");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 207, 100, 55));
 
         jButton12.setText("METODO 12");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 207, 101, 55));
 
         jButton13.setText("METODO 13");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 267, 101, 55));
 
         jButton14.setText("METODO 14");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 267, 101, 55));
 
         jButton15.setText("METODO 15");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 267, 100, 55));
 
         jButton16.setText("METODO 16");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 267, 101, 55));
 
         jLabel1.setFont(new java.awt.Font("Yu Gothic Light", 0, 36)); // NOI18N
@@ -129,46 +249,495 @@ public class METODOSMC extends javax.swing.JFrame {
         jPanel1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(67, 37, -1, -1));
 
         jPanel2.setBackground(new java.awt.Color(255, 0, 0));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setText("jLabel2");
+        jLabel2.setFont(new java.awt.Font("Yu Gothic Light", 0, 18)); // NOI18N
+        jLabel2.setText("Interpolacion Lineal");
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, -1, -1));
 
         jButton18.setText("jButton18");
+        jButton18.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton18MouseClicked(evt);
+            }
+        });
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton18ActionPerformed(evt);
             }
         });
+        jPanel2.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 150, 130, 50));
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton18)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel2)
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 420, 230));
+
+        jPanel3.setBackground(new java.awt.Color(255, 0, 1));
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton19.setText("jButton19");
+        jButton19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton19MouseClicked(evt);
+            }
+        });
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
+        jPanel3.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 150, 125, 50));
+
+        jLabel3.setFont(new java.awt.Font("Yu Gothic Light", 0, 18)); // NOI18N
+        jLabel3.setText("Newton Hacia Adelante");
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(52, 30, -1, -1));
+
+        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 300, 230));
+
+        jPanel5.setBackground(new java.awt.Color(255, 0, 0));
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel4.setFont(new java.awt.Font("Yu Gothic Light", 0, 18)); // NOI18N
+        jLabel4.setText("Newton Hacia Atras");
+        jPanel5.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, -1, -1));
+
+        jButton20.setText("jButton20");
+        jButton20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton20MouseClicked(evt);
+            }
+        });
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
+        jPanel5.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, 140, 40));
+
+        jPanel1.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 260, 230));
+
+        jPanel4.setBackground(new java.awt.Color(255, 0, 0));
+
+        jLabel5.setFont(new java.awt.Font("Yu Gothic Light", 0, 15)); // NOI18N
+        jLabel5.setText("Newton con Diferencias Divididas");
+
+        jButton21.setText("jButton21");
+        jButton21.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton21MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                .addContainerGap(16, Short.MAX_VALUE)
+                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 234, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(69, 69, 69)
+                .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(25, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jButton18))
-                .addGap(18, 18, 18))
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(29, 29, 29)
+                .addComponent(jLabel5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 105, Short.MAX_VALUE)
+                .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(34, 34, 34))
         );
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 330, 146, 66));
+        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 260, 230));
+
+        jPanel6.setBackground(new java.awt.Color(255, 0, 0));
+        jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel6.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
+        jLabel6.setText("Lagrange");
+        jPanel6.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 30, -1, -1));
+
+        jButton22.setText("jButton22");
+        jButton22.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton22MouseClicked(evt);
+            }
+        });
+        jPanel6.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 150, 130, 40));
+
+        jPanel1.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 250, 230));
+
+        jPanel7.setBackground(new java.awt.Color(255, 0, 0));
+
+        jLabel7.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
+        jLabel7.setText("Grafico");
+
+        jButton23.setText("jButton23");
+        jButton23.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton23MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(93, 93, 93)
+                .addComponent(jLabel7)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
+                .addContainerGap(73, Short.MAX_VALUE)
+                .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(68, 68, 68))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(32, 32, 32)
+                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 68, Short.MAX_VALUE)
+                .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(55, 55, 55))
+        );
+
+        jPanel1.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 260, 230));
+
+        jPanel8.setBackground(new java.awt.Color(255, 0, 0));
+
+        jLabel8.setFont(new java.awt.Font("Yu Gothic Light", 0, 18)); // NOI18N
+        jLabel8.setText("Bisectriz");
+
+        jButton24.setText("jButton24");
+        jButton24.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton24MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(78, 78, 78)
+                        .addComponent(jLabel8))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(67, 67, 67)
+                        .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(73, Short.MAX_VALUE))
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGap(26, 26, 26)
+                .addComponent(jLabel8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 83, Short.MAX_VALUE)
+                .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(46, 46, 46))
+        );
+
+        jPanel1.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 240, 230));
+
+        jPanel9.setBackground(new java.awt.Color(255, 0, 0));
+        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel9.setFont(new java.awt.Font("Yu Gothic Light", 0, 18)); // NOI18N
+        jLabel9.setText("Punto Fijo");
+        jPanel9.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(79, 34, 89, 31));
+
+        jButton25.setText("jButton25");
+        jButton25.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton25MouseClicked(evt);
+            }
+        });
+        jPanel9.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(63, 145, 113, 38));
+
+        jPanel1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 250, 230));
+
+        jPanel10.setBackground(new java.awt.Color(255, 0, 0));
+        jPanel10.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel10.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
+        jLabel10.setText("Newton-Rhapson");
+        jPanel10.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, -1, -1));
+
+        jButton26.setText("jButton26");
+        jButton26.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton26MouseClicked(evt);
+            }
+        });
+        jPanel10.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 130, 40));
+
+        jPanel1.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 240, 230));
+
+        jPanel11.setBackground(new java.awt.Color(255, 0, 0));
+
+        jLabel11.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
+        jLabel11.setText("Falsa Posicion o Regula");
+
+        jButton27.setText("jButton27");
+        jButton27.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton27MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel11Layout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel11))
+                    .addGroup(jPanel11Layout.createSequentialGroup()
+                        .addGap(49, 49, 49)
+                        .addComponent(jButton27, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(23, Short.MAX_VALUE))
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(jLabel11)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 85, Short.MAX_VALUE)
+                .addComponent(jButton27, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(40, 40, 40))
+        );
+
+        jPanel1.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 220, 230));
+
+        jPanel12.setBackground(new java.awt.Color(255, 0, 0));
+        jPanel12.setForeground(new java.awt.Color(255, 0, 0));
+
+        jLabel12.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
+        jLabel12.setText("Secante");
+
+        jButton28.setText("jButton28");
+        jButton28.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton28MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addGap(76, 76, 76)
+                        .addComponent(jLabel12))
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addGap(53, 53, 53)
+                        .addComponent(jButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(54, Short.MAX_VALUE))
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addGap(22, 22, 22)
+                .addComponent(jLabel12)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 96, Short.MAX_VALUE)
+                .addComponent(jButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(36, 36, 36))
+        );
+
+        jPanel1.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 220, 230));
+
+        jPanel13.setBackground(new java.awt.Color(255, 0, 0));
+
+        jLabel13.setFont(new java.awt.Font("Yu Gothic UI", 0, 18)); // NOI18N
+        jLabel13.setText("Montante");
+
+        jButton29.setText("jButton29");
+        jButton29.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton29MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addGap(74, 74, 74)
+                        .addComponent(jLabel13))
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addGap(61, 61, 61)
+                        .addComponent(jButton29, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(63, Short.MAX_VALUE))
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addGap(35, 35, 35)
+                .addComponent(jLabel13)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 84, Short.MAX_VALUE)
+                .addComponent(jButton29, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(46, 46, 46))
+        );
+
+        jPanel1.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 230, 230));
+
+        jPanel14.setBackground(new java.awt.Color(255, 0, 0));
+
+        jLabel14.setFont(new java.awt.Font("Yu Gothic Light", 0, 18)); // NOI18N
+        jLabel14.setText("Gauss-Jordan");
+
+        jButton30.setText("jButton30");
+        jButton30.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton30MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
+        jPanel14.setLayout(jPanel14Layout);
+        jPanel14Layout.setHorizontalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addGap(80, 80, 80)
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jButton30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(83, Short.MAX_VALUE))
+        );
+        jPanel14Layout.setVerticalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(jLabel14)
+                .addGap(68, 68, 68)
+                .addComponent(jButton30, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(48, Short.MAX_VALUE))
+        );
+
+        jPanel1.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 270, 230));
+
+        jPanel15.setBackground(new java.awt.Color(255, 0, 0));
+
+        jLabel15.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
+        jLabel15.setText("Eliminacion Gaussiana");
+
+        jButton31.setText("jButton31");
+        jButton31.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton31MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
+        jPanel15.setLayout(jPanel15Layout);
+        jPanel15Layout.setHorizontalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
+                .addContainerGap(73, Short.MAX_VALUE)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel15)
+                    .addComponent(jButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(68, 68, 68))
+        );
+        jPanel15Layout.setVerticalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addGap(27, 27, 27)
+                .addComponent(jLabel15)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 97, Short.MAX_VALUE)
+                .addComponent(jButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(49, 49, 49))
+        );
+
+        jPanel1.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 310, 240));
+
+        jPanel16.setBackground(new java.awt.Color(255, 0, 0));
+
+        jLabel16.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
+        jLabel16.setText("Gauss-Seidel");
+
+        jButton32.setText("jButton32");
+        jButton32.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton32MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addGap(55, 55, 55)
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel16))
+                .addContainerGap(58, Short.MAX_VALUE))
+        );
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addGap(44, 44, 44)
+                .addComponent(jLabel16)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 82, Short.MAX_VALUE)
+                .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(39, 39, 39))
+        );
+
+        jPanel1.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 220, 230));
+
+        jPanel17.setBackground(new java.awt.Color(255, 0, 0));
+
+        jLabel17.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
+        jLabel17.setText("Jacobi");
+
+        jButton33.setText("jButton33");
+        jButton33.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton33MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
+        jPanel17.setLayout(jPanel17Layout);
+        jPanel17Layout.setHorizontalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addGap(52, 52, 52)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(73, Short.MAX_VALUE))
+        );
+        jPanel17Layout.setVerticalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addGap(39, 39, 39)
+                .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 88, Short.MAX_VALUE)
+                .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(44, 44, 44))
+        );
+
+        jPanel1.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 220, 240));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 975, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 10, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 838, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -202,11 +771,37 @@ public class METODOSMC extends javax.swing.JFrame {
                               jButton14.setVisible(false);
                                 jButton15.setVisible(false);
                                   jButton16.setVisible(false);
+                                  jButton1.setVisible(false);
                                     jPanel2.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
+                           
+    
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
+        
+        jPanel2.setVisible(false);
+        jPanel3.setVisible(false);
+        jPanel5.setVisible(false);
+        jPanel4.setVisible(false);
+        jPanel6.setVisible(false);
+        jPanel7.setVisible(false);
+        jPanel8.setVisible(false);
+        jPanel9.setVisible(false);
+        jPanel10.setVisible(false);
+        jPanel11.setVisible(false);
+        jPanel12.setVisible(false);
+        jPanel13.setVisible(false);
+        jPanel14.setVisible(false);
+        jPanel15.setVisible(false);
+        jPanel16.setVisible(false);
+        jPanel17.setVisible(false);
+    }//GEN-LAST:event_formWindowOpened
 
-     private void jButton18MouseClicked(java.awt.event.MouseEvent evt) {                                       
-     jPanel2.setVisible(true);
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton18MouseClicked
+jPanel2.setVisible(true);
       jButton2.setVisible(true);
          jButton3.setVisible(true);
            jButton4.setVisible(true);
@@ -222,21 +817,668 @@ public class METODOSMC extends javax.swing.JFrame {
            jButton14.setVisible(true);
              jButton15.setVisible(true);
                jButton16.setVisible(true);
-                 jButton18.setVisible(true);
-           
-               jButton1.setVisible(true);
+                 jButton1.setVisible(true);
                jPanel2.setVisible(false);
-    }                                     
-    
-    private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
-        jButton18.setVisible(false);
-        jPanel2.setVisible(false);
-    }//GEN-LAST:event_formWindowOpened
+    }//GEN-LAST:event_jButton18MouseClicked
 
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        //Boton Metodo 2
+        jButton1.setVisible(false);
+         jButton3.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton2.setVisible(false);
+                                    jPanel3.setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton19MouseClicked
+    jPanel3.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel3.setVisible(false);
+    }//GEN-LAST:event_jButton19MouseClicked
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton18ActionPerformed
+    }//GEN-LAST:event_jButton19ActionPerformed
 
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        //Boton Metodo 3
+         jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel5.setVisible(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+            // TODO add your handling code here:
+    }//GEN-LAST:event_jButton20ActionPerformed
+
+    private void jButton20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton20MouseClicked
+        jPanel5.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel5.setVisible(false);
+    }//GEN-LAST:event_jButton20MouseClicked
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        //Boton Metodo 4
+         jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel4.setVisible(true);
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton21MouseClicked
+        jPanel4.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel4.setVisible(false);
+    }//GEN-LAST:event_jButton21MouseClicked
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        //Boton Metodo 5
+        jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel6.setVisible(true);
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton22MouseClicked
+         jPanel6.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel6.setVisible(false);
+    }//GEN-LAST:event_jButton22MouseClicked
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        //Boton Metodo 6
+        jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel7.setVisible(true);
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton23MouseClicked
+           jPanel7.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel7.setVisible(false);
+    }//GEN-LAST:event_jButton23MouseClicked
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        //Boton Metodo 7
+         jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel8.setVisible(true);
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton24MouseClicked
+               jPanel8.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel8.setVisible(false);
+    }//GEN-LAST:event_jButton24MouseClicked
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        //Boton Metodo 8
+         jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel9.setVisible(true);
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton25MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton25MouseClicked
+        jPanel9.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel9.setVisible(false);
+    }//GEN-LAST:event_jButton25MouseClicked
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        //Buton Metodo 9
+         jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel10.setVisible(true);
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton26MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton26MouseClicked
+        jPanel10.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel10.setVisible(false);
+    }//GEN-LAST:event_jButton26MouseClicked
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        //Boton Metodo 10
+        jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel11.setVisible(true);
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton27MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton27MouseClicked
+        jPanel11.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel11.setVisible(false);
+    }//GEN-LAST:event_jButton27MouseClicked
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        //Boton Metodo 11
+         jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel12.setVisible(true);
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton28MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton28MouseClicked
+        jPanel12.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel12.setVisible(false);
+    }//GEN-LAST:event_jButton28MouseClicked
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        //Boton Metodo 12
+        jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel13.setVisible(true);
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton29MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton29MouseClicked
+        jPanel13.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel13.setVisible(false);
+    }//GEN-LAST:event_jButton29MouseClicked
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        //Boton Metodo 13
+        jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel14.setVisible(true);
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton30MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton30MouseClicked
+        jPanel14.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel14.setVisible(false);
+    }//GEN-LAST:event_jButton30MouseClicked
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        //Boton Metodo 14
+        jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel15.setVisible(true);
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton31MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton31MouseClicked
+        jPanel15.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel15.setVisible(false);
+    }//GEN-LAST:event_jButton31MouseClicked
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        //Boton Metodo 15
+        jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel16.setVisible(true);
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton32MouseClicked
+       jPanel16.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel16.setVisible(false);
+    }//GEN-LAST:event_jButton32MouseClicked
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        //Boton Metodo 16
+        jButton1.setVisible(false);
+         jButton2.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                 jButton7.setVisible(false);
+                   jButton8.setVisible(false);
+                     jButton9.setVisible(false);
+                      jButton10.setVisible(false);
+                        jButton11.setVisible(false);
+                          jButton12.setVisible(false);
+                            jButton13.setVisible(false);
+                              jButton14.setVisible(false);
+                                jButton15.setVisible(false);
+                                  jButton16.setVisible(false);
+                                  jButton3.setVisible(false);
+                                    jPanel17.setVisible(true);
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton33MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton33MouseClicked
+         jPanel17.setVisible(true);
+    jButton1.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton2.setVisible(true);
+               jPanel17.setVisible(false);
+    }//GEN-LAST:event_jButton33MouseClicked
+
+    
+    
+    
+    
+    
     /**
      * @param args the command line arguments
      */
@@ -253,15 +1495,11 @@ public class METODOSMC extends javax.swing.JFrame {
                     break;
                 }
             }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(METODOSMC.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(METODOSMC.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(METODOSMC.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(METODOSMC.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        
         //</editor-fold>
 
         /* Create and display the form */
@@ -283,8 +1521,23 @@ public class METODOSMC extends javax.swing.JFrame {
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
+    private javax.swing.JButton jButton28;
+    private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton30;
+    private javax.swing.JButton jButton31;
+    private javax.swing.JButton jButton32;
+    private javax.swing.JButton jButton33;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
@@ -292,8 +1545,38 @@ public class METODOSMC extends javax.swing.JFrame {
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     // End of variables declaration//GEN-END:variables
 }
