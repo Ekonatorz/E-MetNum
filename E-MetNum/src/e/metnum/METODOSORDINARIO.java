@@ -86,7 +86,7 @@ public class METODOSORDINARIO extends javax.swing.JFrame {
         jButton11.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton11.setText("METODO 27");
 
-        jButton12.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
+        jButton12.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         jButton12.setText("METODO 31");
 
         jButton13.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
