@@ -50,10 +50,20 @@ public class METODOSORDINARIO extends javax.swing.JFrame {
         jButton20 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jButton21 = new javax.swing.JButton();
+        jButton22 = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
+        jButton23 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowOpened(java.awt.event.WindowEvent evt) {
+                formWindowOpened(evt);
+            }
+        });
 
         jPanel1.setBackground(new java.awt.Color(65, 105, 225));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton1.setText("METODO 17");
@@ -62,66 +72,87 @@ public class METODOSORDINARIO extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 80, -1, 55));
 
         jButton2.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton2.setText("METODO 21");
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 141, -1, 55));
 
         jButton3.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton3.setText("METODO 25");
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 202, -1, 55));
 
         jButton4.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton4.setText("METODO 29");
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 263, -1, 55));
 
         jButton5.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton5.setText("METODO 18");
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(125, 80, -1, 55));
 
         jButton6.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton6.setText("METODO 22");
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(125, 141, -1, 55));
 
         jButton7.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton7.setText("METODO 26");
+        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(125, 202, -1, 55));
 
         jButton8.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton8.setText("METODO 30");
+        jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(125, 263, -1, 55));
 
         jButton9.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton9.setText("METODO 19");
+        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(232, 80, -1, 55));
 
         jButton10.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton10.setText("METODO 23");
+        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(232, 141, -1, 55));
 
         jButton11.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton11.setText("METODO 27");
+        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(232, 202, -1, 55));
 
         jButton12.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton12.setText("METODO 31");
+        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(232, 263, -1, 55));
 
         jButton13.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton13.setText("METODO 20");
+        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(339, 80, -1, 55));
 
         jButton14.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton14.setText("METODO 24");
+        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(339, 141, -1, 55));
 
         jButton15.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton15.setText("METODO 28");
+        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(339, 202, -1, 55));
 
         jButton16.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton16.setText("METODO 32");
+        jPanel1.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(339, 263, -1, 55));
 
         jButton17.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton17.setText("METODO 33");
+        jPanel1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(446, 80, -1, 55));
 
         jButton18.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton18.setText("METODO 34");
+        jPanel1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(446, 141, -1, 55));
 
         jButton19.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton19.setText("METODO 35");
+        jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(446, 202, -1, 55));
 
         jButton20.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton20.setText("METODO 36");
+        jPanel1.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(446, 263, -1, 55));
 
         jLabel1.setFont(new java.awt.Font("Yu Gothic Light", 0, 36)); // NOI18N
         jLabel1.setText("METODOS ORDINARIO");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(116, 11, 379, -1));
 
         jButton21.setText("Regresar");
         jButton21.addActionListener(new java.awt.event.ActionListener() {
@@ -129,119 +160,70 @@ public class METODOSORDINARIO extends javax.swing.JFrame {
                 jButton21ActionPerformed(evt);
             }
         });
+        jPanel1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 37, -1, -1));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.Alignment.LEADING))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton6)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton10)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton14)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton18))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton11)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton15)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton19))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton8)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton12)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton20))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton9)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton13)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton17)))
-                .addContainerGap(28, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton21)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 379, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(80, 80, 80))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(18, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jButton21))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(20, 20, 20))
-        );
+        jButton22.setText("REGRESAR");
+        jPanel1.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 343, -1, -1));
+
+        jPanel2.setBackground(new java.awt.Color(255, 51, 51));
+        jPanel2.setFocusable(false);
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton23.setText("jButton23");
+        jButton23.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton23MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(22, 23, -1, -1));
+
+        jLabel2.setText("jLabel2");
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 27, -1, -1));
+
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, 380, 220));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 366, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(128, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       jButton5.setVisible(false);
+       jButton2.setVisible(false);
+         jButton3.setVisible(false);
+           jButton4.setVisible(false);
+             jButton5.setVisible(false);
+               jButton6.setVisible(false);
+                jButton7.setVisible(false);
+         jButton8.setVisible(false);
+           jButton9.setVisible(false);
+             jButton10.setVisible(false);
+               jButton11.setVisible(false);
+                jButton12.setVisible(false);
+         jButton13.setVisible(false);
+           jButton14.setVisible(false);
+             jButton15.setVisible(false);
+               jButton16.setVisible(false);
+                jButton17.setVisible(false);
+         jButton18.setVisible(false);
+           jButton19.setVisible(false);
+             jButton20.setVisible(false);
+               jButton1.setVisible(false);
+                 jPanel2.setVisible(true);
+                
+               
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
@@ -250,6 +232,36 @@ public class METODOSORDINARIO extends javax.swing.JFrame {
         this.dispose();
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
+        jButton22.setVisible(false);
+        jPanel2.setVisible(false);
+    }//GEN-LAST:event_formWindowOpened
+
+    private void jButton23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton23MouseClicked
+     jPanel2.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                jButton17.setVisible(true);
+         jButton18.setVisible(true);
+           jButton19.setVisible(true);
+             jButton20.setVisible(true);
+               jButton1.setVisible(true);
+               jPanel2.setVisible(false);
+    }//GEN-LAST:event_jButton23MouseClicked
 
     /**
      * @param args the command line arguments
@@ -301,6 +313,8 @@ public class METODOSORDINARIO extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -309,6 +323,8 @@ public class METODOSORDINARIO extends javax.swing.JFrame {
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
 }
