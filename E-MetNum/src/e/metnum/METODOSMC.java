@@ -202,8 +202,32 @@ public class METODOSMC extends javax.swing.JFrame {
                               jButton14.setVisible(false);
                                 jButton15.setVisible(false);
                                   jButton16.setVisible(false);
+                                    jPanel2.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
+     private void jButton18MouseClicked(java.awt.event.MouseEvent evt) {                                       
+     jPanel2.setVisible(true);
+      jButton2.setVisible(true);
+         jButton3.setVisible(true);
+           jButton4.setVisible(true);
+             jButton5.setVisible(true);
+               jButton6.setVisible(true);
+                jButton7.setVisible(true);
+         jButton8.setVisible(true);
+           jButton9.setVisible(true);
+             jButton10.setVisible(true);
+               jButton11.setVisible(true);
+                jButton12.setVisible(true);
+         jButton13.setVisible(true);
+           jButton14.setVisible(true);
+             jButton15.setVisible(true);
+               jButton16.setVisible(true);
+                 jButton18.setVisible(true);
+           
+               jButton1.setVisible(true);
+               jPanel2.setVisible(false);
+    }                                     
+    
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         jButton18.setVisible(false);
         jPanel2.setVisible(false);
