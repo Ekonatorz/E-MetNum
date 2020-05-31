@@ -51,7 +51,7 @@ public class METODOSMC extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(65, 105, 225));
 
         jButton1.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
-        jButton1.setText("METODO 1");
+        jButton1.setText("EDITAR");
 
         jButton2.setText("METODO 2");
 
