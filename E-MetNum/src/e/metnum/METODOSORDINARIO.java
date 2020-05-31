@@ -163,6 +163,11 @@ public class METODOSORDINARIO extends javax.swing.JFrame {
         jPanel1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 37, -1, -1));
 
         jButton22.setText("REGRESAR");
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 343, -1, -1));
 
         jPanel2.setBackground(new java.awt.Color(255, 51, 51));
@@ -173,6 +178,11 @@ public class METODOSORDINARIO extends javax.swing.JFrame {
         jButton23.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton23MouseClicked(evt);
+            }
+        });
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
             }
         });
         jPanel2.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(22, 23, -1, -1));
@@ -262,6 +272,14 @@ public class METODOSORDINARIO extends javax.swing.JFrame {
                jButton1.setVisible(true);
                jPanel2.setVisible(false);
     }//GEN-LAST:event_jButton23MouseClicked
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton23ActionPerformed
 
     /**
      * @param args the command line arguments
