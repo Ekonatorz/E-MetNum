@@ -52,7 +52,7 @@ public class METODOSMC extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(65, 105, 225));
 
         jButton1.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
-        jButton1.setText("EDITAR");
+        jButton1.setText("METODO 1");
 
         jButton2.setText("METODO 2");
 
@@ -60,7 +60,7 @@ public class METODOSMC extends javax.swing.JFrame {
 
         jButton4.setText("METODO 4");
 
-        jButton5.setText("EDITAR2.0");
+        jButton5.setText("METODO 4");
 
         jButton6.setText("METODO 6");
 
@@ -130,7 +130,7 @@ public class METODOSMC extends javax.swing.JFrame {
                         .addComponent(jButton17)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(502, Short.MAX_VALUE))
+                .addContainerGap(496, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
