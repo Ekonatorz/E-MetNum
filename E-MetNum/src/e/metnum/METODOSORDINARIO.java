@@ -204,82 +204,83 @@ public class METODOSORDINARIO extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 387, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 377, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 34, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       jButton2.setVisible(false);
-         jButton3.setVisible(false);
-           jButton4.setVisible(false);
-             jButton5.setVisible(false);
-               jButton6.setVisible(false);
-                jButton7.setVisible(false);
-         jButton8.setVisible(false);
-           jButton9.setVisible(false);
-             jButton10.setVisible(false);
-               jButton11.setVisible(false);
-                jButton12.setVisible(false);
-         jButton13.setVisible(false);
-           jButton14.setVisible(false);
-             jButton15.setVisible(false);
-               jButton16.setVisible(false);
-                jButton17.setVisible(false);
-         jButton18.setVisible(false);
-           jButton19.setVisible(false);
-             jButton20.setVisible(false);
-               jButton1.setVisible(false);
-                 jPanel2.setVisible(true);
-                
-               
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-      Principal pp = new Principal();
-        pp.setVisible(true);
-        this.dispose();
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton21ActionPerformed
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         jButton22.setVisible(false);
         jPanel2.setVisible(false);
     }//GEN-LAST:event_formWindowOpened
 
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton23ActionPerformed
+
     private void jButton23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton23MouseClicked
-     jPanel2.setVisible(true);
-      jButton2.setVisible(true);
-         jButton3.setVisible(true);
-           jButton4.setVisible(true);
-             jButton5.setVisible(true);
-               jButton6.setVisible(true);
-                jButton7.setVisible(true);
-         jButton8.setVisible(true);
-           jButton9.setVisible(true);
-             jButton10.setVisible(true);
-               jButton11.setVisible(true);
-                jButton12.setVisible(true);
-         jButton13.setVisible(true);
-           jButton14.setVisible(true);
-             jButton15.setVisible(true);
-               jButton16.setVisible(true);
-                jButton17.setVisible(true);
-         jButton18.setVisible(true);
-           jButton19.setVisible(true);
-             jButton20.setVisible(true);
-               jButton1.setVisible(true);
-               jPanel2.setVisible(false);
+        jPanel2.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton5.setVisible(true);
+        jButton6.setVisible(true);
+        jButton7.setVisible(true);
+        jButton8.setVisible(true);
+        jButton9.setVisible(true);
+        jButton10.setVisible(true);
+        jButton11.setVisible(true);
+        jButton12.setVisible(true);
+        jButton13.setVisible(true);
+        jButton14.setVisible(true);
+        jButton15.setVisible(true);
+        jButton16.setVisible(true);
+        jButton17.setVisible(true);
+        jButton18.setVisible(true);
+        jButton19.setVisible(true);
+        jButton20.setVisible(true);
+        jButton1.setVisible(true);
+        jPanel2.setVisible(false);
     }//GEN-LAST:event_jButton23MouseClicked
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton22ActionPerformed
 
-    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        Principal pp = new Principal();
+        pp.setVisible(true);
+        this.dispose();
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton23ActionPerformed
+    }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        jButton2.setVisible(false);
+        jButton3.setVisible(false);
+        jButton4.setVisible(false);
+        jButton5.setVisible(false);
+        jButton6.setVisible(false);
+        jButton7.setVisible(false);
+        jButton8.setVisible(false);
+        jButton9.setVisible(false);
+        jButton10.setVisible(false);
+        jButton11.setVisible(false);
+        jButton12.setVisible(false);
+        jButton13.setVisible(false);
+        jButton14.setVisible(false);
+        jButton15.setVisible(false);
+        jButton16.setVisible(false);
+        jButton17.setVisible(false);
+        jButton18.setVisible(false);
+        jButton19.setVisible(false);
+        jButton20.setVisible(false);
+        jButton1.setVisible(false);
+        jPanel2.setVisible(true);
+
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
