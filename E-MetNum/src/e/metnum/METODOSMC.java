@@ -94,6 +94,7 @@ public class METODOSMC extends javax.swing.JFrame {
         jPanel17 = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
         jButton33 = new javax.swing.JButton();
+        jButton34 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -748,6 +749,14 @@ public class METODOSMC extends javax.swing.JFrame {
         );
 
         jPanel1.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 220, 240));
+
+        jButton34.setText("Iniciar Quiz MC");
+        jButton34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton34ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 340, 130, 50));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1490,6 +1499,12 @@ jPanel2.setVisible(true);
                jPanel17.setVisible(false);
     }//GEN-LAST:event_jButton33MouseClicked
 
+    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
+        QuizMC QM = new QuizMC();
+        QM.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton34ActionPerformed
+
     
     
     
@@ -1554,6 +1569,7 @@ jPanel2.setVisible(true);
     private javax.swing.JButton jButton31;
     private javax.swing.JButton jButton32;
     private javax.swing.JButton jButton33;
+    private javax.swing.JButton jButton34;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
