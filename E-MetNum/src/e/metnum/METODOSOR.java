@@ -809,7 +809,7 @@ public class METODOSOR extends javax.swing.JFrame {
                 jButton22ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 360, -1, -1));
+        jPanel1.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 360, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
