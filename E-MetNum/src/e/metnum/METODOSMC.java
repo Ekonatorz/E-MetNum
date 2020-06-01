@@ -256,7 +256,7 @@ public class METODOSMC extends javax.swing.JFrame {
         jLabel1.setText("METODOS MC");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(148, 11, 280, -1));
 
-        jButton17.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jButton17.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton17.setText("Regresar");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
