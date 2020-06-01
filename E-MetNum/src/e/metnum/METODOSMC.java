@@ -115,6 +115,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 87, 101, 55));
 
+        jButton2.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton2.setText("METODO 2");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -123,6 +124,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 87, 101, 55));
 
+        jButton3.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton3.setText("METODO 3");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -131,6 +133,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 87, 100, 55));
 
+        jButton4.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton4.setText("METODO 4");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,6 +142,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 87, 101, 55));
 
+        jButton5.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton5.setText("METODO 5");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,6 +151,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 147, 101, 55));
 
+        jButton6.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton6.setText("METODO 6");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -155,6 +160,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 147, 101, 55));
 
+        jButton7.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton7.setText("METODO 7");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -163,6 +169,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 147, 100, 55));
 
+        jButton8.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton8.setText("METODO 8");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,6 +178,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 147, 101, 55));
 
+        jButton9.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton9.setText("METODO 9");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -179,6 +187,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 207, 101, 55));
 
+        jButton10.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton10.setText("METODO 10");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,6 +196,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 207, 101, 55));
 
+        jButton11.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton11.setText("METODO 11");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -195,6 +205,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 207, 100, 55));
 
+        jButton12.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton12.setText("METODO 12");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,6 +214,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 207, 101, 55));
 
+        jButton13.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton13.setText("METODO 13");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -211,6 +223,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 267, 101, 55));
 
+        jButton14.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton14.setText("METODO 14");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -219,6 +232,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 267, 101, 55));
 
+        jButton15.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton15.setText("METODO 15");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -227,6 +241,7 @@ public class METODOSMC extends javax.swing.JFrame {
         });
         jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 267, 100, 55));
 
+        jButton16.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         jButton16.setText("METODO 16");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
